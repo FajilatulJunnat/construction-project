@@ -1,0 +1,26 @@
+.img-size{
+    height: 45vw !important;
+    top: -110px;
+   
+}
+.carousel-caption{
+    padding-bottom: 15.25rem !important;
+} 
+
+.carousel-inner{
+    background: #1D1D1D !important;
+}
+.btn-slide:hover{
+ background-color: orange !important;
+}
+
+.card-body{
+    width: 100% !important;
+    
+}
+
+@media  only screen and (min-width: 200px) and (max-width: 991px) { 
+    .carousel-caption{
+        top: 2.25rem !important;
+    }
+ }
