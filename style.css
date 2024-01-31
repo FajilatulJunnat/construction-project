@@ -18,7 +18,19 @@
     width: 100% !important;
     
 }
-
+.icon{
+    width: 15%;
+    background-color: orange ;
+    padding: 10px;
+    position: static;
+    left: -10px;
+    border-radius: 50%;
+    
+}
+.card-body i{
+    position: relative;
+  
+}
 @media  only screen and (min-width: 200px) and (max-width: 991px) { 
     .carousel-caption{
         top: 2.25rem !important;
