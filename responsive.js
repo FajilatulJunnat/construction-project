@@ -1,4 +1,4 @@
-document.getElementById('parker').addEventListener('onmouseover',function () {
-    document.getElementById('parker-title').style.color='orange';
-    
+
+document.getElementById('parker').addEventListener('click',function () {
+    console.log('jnfgviot');
 })
