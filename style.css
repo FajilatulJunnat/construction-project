@@ -78,7 +78,7 @@
         top: 2.25rem !important;
     }
  }
- /*feacher*/
+ /*feature*/
  .features .nav-tabs {
     border: 0;
   }
@@ -86,7 +86,7 @@
   .features .nav-link {
     padding: 15px 0;
     transition: 0.3s;
-    color: var(--color-secondary);
+    color: #52565e;
     border-radius: 0;
     display: flex;
     align-items: center;
@@ -115,13 +115,13 @@
   }
   
   .features .nav-link:hover {
-    color: var(--color-primary);
+    color: #feb900;
   }
   
   .features .nav-link.active {
-    color: var(--color-primary);
+    color: #feb900;
     background-color: transparent;
-    border-color: var(--color-primary);
+    border-color: #feb900;
   }
   
   .features .tab-content {
@@ -142,7 +142,7 @@
     display: block;
     width: 60px;
     height: 3px;
-    background: var(--color-primary);
+    background:  #feb900;
     left: 0;
     bottom: 0;
   }
@@ -192,3 +192,27 @@
     top: 0px;
     position: relative;
 } 
+/*footer*/
+.bg-image{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/footer-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-image::before{
+  background-size: cover;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55)
+}
+
+.icon:hover{
+  background-color: #feb900;
+}
