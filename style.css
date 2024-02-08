@@ -286,4 +286,6 @@ transition: .3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.55)
 }
 
-
+.bg-image a:hover{
+  background-color: #feb900 !important;
+}
